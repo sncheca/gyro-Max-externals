@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 93.0, 79.0, 1196.0, 707.0 ],
+		"rect" : [ 93.0, 79.0, 821.0, 707.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 93.0, 105.0, 1196.0, 681.0 ],
+						"rect" : [ 93.0, 105.0, 821.0, 681.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -280,12 +280,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"linecount" : 25,
+									"linecount" : 24,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 611.0, 9.0, 556.0, 384.0 ],
-									"text" : "Every face is different! Therefore, every person will have a different HRTF preference. \n\nTips on finding the right HRTF:\n\n1. Sit in a room with walls at 90 degrees. Keep your head at right angles while doing this. This will help you visualise angles.\n2. Choose an HRTF to try.\n3. Move a mono sound source slowly around your head in the transverse plane. White noise [noise~] is the best option, but is kind of annoying, so a shaker, tambourine, or speech also works well for this because the brain is really good at localising high frequencies. Pick a few angles (+/- 90 is a good place to start) and close your eyes. Try to place the sound source at the desired angle using your EARS only. Then open your eyes and see what angle the source is actually at. The closer the angle is to your perceived angle, the better the fit. Be sure to approach the desired angle from both sides. \n4. Repeat Step 3 for the sagittal and coronal plane. Be sure to examine the full circle around you. \n5. I suggest also listening for a flat frequency response and a relatively consistent level over space. Of course, sources behind you will be a little quieter than those in front and will sound a bit low-passed, but there should not be strange pockets of space that are surprisingly loud or quiet, or that sound like they have strange filters over them. \n\nYou can read about my subjective impressions of these HRTFs at gyro/source/resonance_audio/third_party/SADIE_I_hrtf_database/Sofia's subjective HRTF impressions.md, which won't help you pick your own but will give you a sense of what to listen for. \n"
+									"patching_rect" : [ 611.0, 9.0, 556.0, 370.0 ],
+									"text" : "Every face is different! Therefore, every person will have a different HRTF preference. \n\nTips on finding the right HRTF:\n\n1. Sit in a room with walls at 90 degrees. Keep your head at right angles while doing this. This will help you visualise angles.\n2. Choose an HRTF to try.\n3. Move a mono sound source slowly around your head in the transverse plane. White noise [noise~] is the best option, but is kind of annoying, so a shaker, tambourine, or speech also works well for this because the brain is really good at localising high frequencies. Pick a few angles (+/- 90 is a good place to start) and close your eyes. Try to place the sound source at the desired angle using your EARS only. Then open your eyes and see what angle the source is actually at. The closer the angle is to your perceived angle, the better the fit. Be sure to approach the desired angle from both sides. \n4. Repeat Step 3 for the sagittal and coronal plane. Be sure to examine the full circle around you. \n5. I suggest also listening for a flat frequency response and a relatively consistent level over space. Of course, sources behind you will be a little quieter than those in front and will sound a bit low-passed, but there should not be strange pockets of space that are surprisingly loud or quiet, or that sound like they have strange filters over them. \n\nYou can read about my subjective impressions of these HRTFs at gyro-Max-externals/Sofia's subjective HRTF impressions.md, which won't help you pick your own but will give you a sense of what to listen for. \n"
 								}
 
 							}
@@ -1037,14 +1037,14 @@
 									"patching_rect" : [ 272.0, 504.0, 178.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ -50 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4,
 											"parameter_mmin" : -70.0,
 											"parameter_longname" : "live.gain~[1]",
-											"parameter_initial_enable" : 1
+											"parameter_initial_enable" : 1,
+											"parameter_mmax" : 6.0
 										}
 
 									}
@@ -1412,7 +1412,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1196.0, 681.0 ],
+						"rect" : [ 0.0, 26.0, 821.0, 681.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
