@@ -77,7 +77,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 131.0, 1202.0, 811.0 ],
+						"rect" : [ 34.0, 105.0, 1202.0, 837.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -108,12 +108,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 916.0, 74.0, 150.0, 79.0 ],
-									"text" : "Please read ../Expressions of 3D Space.md to understand more about what these angles mean. "
+									"patching_rect" : [ 916.0, 74.0, 154.0, 65.0 ],
+									"text" : "Please read Expressions of 3D Space.md to understand more about what these angles mean. "
 								}
 
 							}
@@ -227,7 +227,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 703.5, 263.0, 325.5, 23.0 ],
-									"text" : "-0.454519 -0.454519 0.541675 0.541675"
+									"text" : "-0.219922 -0.650433 -0.205081 0.697504"
 								}
 
 							}
@@ -533,14 +533,14 @@
 									"patching_rect" : [ 325.0, 513.0, 178.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 6.0,
+											"parameter_initial" : [ -50 ],
+											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4,
 											"parameter_mmin" : -70.0,
 											"parameter_longname" : "live.gain~[1]",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 6.0,
-											"parameter_initial" : [ -50 ],
-											"parameter_shortname" : "live.gain~"
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -1080,7 +1080,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1202.0, 811.0 ],
+						"rect" : [ 0.0, 26.0, 1202.0, 837.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
