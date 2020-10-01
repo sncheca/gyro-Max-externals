@@ -4,7 +4,7 @@
 
 pre-built Max externals for gyro: A MaxMSP wrapper for Google Resonance. 
 
-`gyro` is based on the `min-devkit`, which can be found [here](https://github.com/Cycling74/min-devkit). If you are interested in the code behind `gyro`, you can view the source code and builds the externals yourself [here](https://github.com/sncheca/gyro). 
+`gyro` is based on the `min-devkit`, which can be found [here](https://github.com/Cycling74/min-devkit). If you are interested in the code behind `gyro`, you can view the source code and builds the externals yourself in the [gyro repository](https://github.com/sncheca/gyro). 
 
 `gyro` is powered by [Google Resonance](https://resonance-audio.github.io/resonance-audio/), which is Google's open source ambisonics and spatial audio project. Resonance is available in many forms already, such as Unity, FMOD, DAW Plugin, etc, but for some reason, there wasn't a Max version, which is why I made `gyro`. `Gyro` uses the C++ source code that can be found [here](https://github.com/resonance-audio/resonance-audio). 
 
